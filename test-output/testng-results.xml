@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-24T23:25:19Z" name="SanityTest" finished-at="2022-09-24T23:25:33Z" duration-ms="14202">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:zoopla.uk.myrunner.MyRunner@63dd899]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-09-24T23:25:19Z" name="Zoopla.uk" finished-at="2022-09-24T23:25:33Z" duration-ms="14202">
+      <class name="zoopla.uk.myrunner.MyRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:zoopla.uk.myrunner.MyRunner@63dd899]" started-at="2022-09-24T23:25:19Z" name="setUpClass" finished-at="2022-09-24T23:25:19Z" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:zoopla.uk.myrunner.MyRunner@63dd899]" started-at="2022-09-24T23:25:19Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-24T23:25:33Z" duration-ms="13199" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to login the application & verfy the users informations on the grid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User able to use zoopla application, login the application, searching the property, buy the property]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy23.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+at zoopla.uk.generic.CommonUtility.getJSClick(CommonUtility.java:53)
+at zoopla.uk.stepdefintaions.LoginTest.user_able_to_click_on_sign_in_button(LoginTest.java:34)
+at ✽.User able to click on sign-in button(file:///C:/Users/User/eclipse-workspace/Jenkins_Test/./Features/LoginFunction.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:zoopla.uk.myrunner.MyRunner@63dd899]" started-at="2022-09-24T23:25:33Z" name="tearDownClass" finished-at="2022-09-24T23:25:33Z" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- zoopla.uk.myrunner.MyRunner -->
+    </test> <!-- Zoopla.uk -->
+  </suite> <!-- SanityTest -->
+</testng-results>

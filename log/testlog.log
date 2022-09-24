@@ -1,0 +1,20 @@
+2022-09-24 19:20:30,921 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 19:20:30,972 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 19:20:35,030 - QA Lead Faisal -INFO - User able to enter the url  
+2022-09-24 19:20:42,539 - QA Lead Faisal -INFO - User able to click on sign-in button 
+2022-09-24 19:21:50,649 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 19:21:50,701 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 19:21:54,860 - QA Lead Faisal -INFO - User able to enter the url  
+2022-09-24 19:22:01,917 - QA Lead Faisal -INFO - User able to click on sign-in button 
+2022-09-24 19:23:00,367 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 19:23:00,417 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 19:23:04,718 - QA Lead Faisal -INFO - User able to enter the url  
+2022-09-24 19:23:12,519 - QA Lead Faisal -INFO - User able to click on sign-in button 
+2022-09-24 19:24:22,302 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 19:24:22,453 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 19:24:28,385 - QA Lead Faisal -INFO - User able to enter the url  
+2022-09-24 19:24:35,765 - QA Lead Faisal -INFO - User able to click on sign-in button 
+2022-09-24 19:25:20,818 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 19:25:20,874 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 19:25:24,910 - QA Lead Faisal -INFO - User able to enter the url  
+2022-09-24 19:25:31,039 - QA Lead Faisal -INFO - User able to click on sign-in button 
